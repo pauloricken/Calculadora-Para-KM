@@ -110,7 +110,7 @@
 			$.ajax({
 				method: "GET",
 				contentType: 'application/json; charset=utf-8',
-				url: 'http://localhost/carro/home.php',
+				url: 'http://localhost/CacKM/home.php',
 			}).done(function (msg, status, xhr) {
 				// Preenchemos o modal com o form.
 				$("#ModalNovo .modal-body").html(msg);
@@ -128,7 +128,7 @@
 			// Fazemos o ajax com o form serializado.
 			$.ajax({
 				type: "POST",
-				url: 'http://localhost/carro/salvar-cadastro.php',
+				url: 'http://localhost/CalcKM/salvar-cadastro.php',
 				data: new FormData($('form')[0]),
 				cache: false,
 				contentType: false,
