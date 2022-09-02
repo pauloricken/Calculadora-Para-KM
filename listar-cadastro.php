@@ -110,7 +110,7 @@
 			$.ajax({
 				method: "GET",
 				contentType: 'application/json; charset=utf-8',
-				url: 'http://localhost/CacKM/home.php',
+				url: 'http://localhost/CalcKM/home.php',
 			}).done(function (msg, status, xhr) {
 				// Preenchemos o modal com o form.
 				$("#ModalNovo .modal-body").html(msg);
